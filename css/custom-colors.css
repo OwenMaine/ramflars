@@ -177,3 +177,26 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 2rem !important;
     }
 }
+
+/* Add to your custom-colors.css */
+.house_icon i {
+    display: inline-block !important;
+    transition: transform 0.3s ease !important;
+}
+
+.service_box:hover .house_icon i {
+    transform: scale(1.1) !important;
+}
+
+/* Optional gradient background for icons */
+.house_icon {
+    width: 80px !important;
+    height: 80px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto 20px auto !important;
+    border-radius: 50% !important;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0) !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+}
